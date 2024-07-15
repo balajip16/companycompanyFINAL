@@ -15,7 +15,7 @@
 .menu {
   display: flex;
   align-items: center;
-  column-gap: 2.7rem;
+  column-gap: 2.7rem; /* Set uniform gap */
   list-style: none;
 }
 
@@ -135,14 +135,6 @@
 }
 
 /* Get Started Button */
-.menu__item:nth-child(2) {
-  margin-left: auto;
-}
-
-.menu__item:nth-child(3) {
-  margin-left: 1rem;
-}
-
 .menu__item:last-child .menu__link {
   padding: 10px 20px;
   border-radius: 20px;
@@ -153,4 +145,8 @@
 
 .menu__item:last-child .menu__link:hover {
   background-image: linear-gradient(to right, #7554ff, #8a6eff);
+}
+
+.menu__item:last-child {
+  padding-left: 1rem; /* Add padding instead of margin */
 }

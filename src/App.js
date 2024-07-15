@@ -30,11 +30,7 @@ function App() {
       <Hero theme={theme} />
       <Counter />
       <Services />
-      <About />
-      <Team />
-      <Blog />
       <Testimonials />
-      <Newsletter />
       <Footer />
     </>
   );
